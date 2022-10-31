@@ -10,11 +10,11 @@ int y = Numbers("Введите Y: ");
 int z = Numbers("Введите Z: ");
 Console.WriteLine($"");
 
-int Numbers(string input)
+int Numbers(string ii)
 {
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
+  Console.Write(ii);
+  int nn = Convert.ToInt32(Console.ReadLine());
+  return nn;
 }
 
 void WriteArray (int[,,] Array3)
